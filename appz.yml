@@ -9,10 +9,10 @@ build:
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat9
-  image_name: alpha/tomcat9-helloworld
+  image_name: skumarpi/tomcat9-helloworld
 
 deploy:
-  context: alpha/DEV
+  context: skumarpi/DEV
   replicas: 2
   port: 
    - 8080
@@ -33,5 +33,3 @@ properties:
   download: true
   random : true
   nano : 75
-  MY_PASSWORD: 
-    vault: MY_PASSWORD
