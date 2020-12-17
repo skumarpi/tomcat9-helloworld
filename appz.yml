@@ -1,7 +1,7 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: appzdev@cloudbourne.co
+  notify: skumar@ecloudcontrol.com
 
 build:
   version: 0.3
@@ -21,12 +21,12 @@ deploy:
   ready_seconds : 30
   
 monitor:
-  notify: appzops@cloudbourne.co
+  notify: skumar@ecloudcontrol.com
 
 properties:
   MOD_CLUSTER: modcluster-1-3:6666
   title: Tomcat HelloWorld - AWS Demo
-  head_color : Blue
+  head_color : Red
   threads: 5
   delay: 15
   next: 15
