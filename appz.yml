@@ -17,8 +17,6 @@ deploy:
   port: 
    - 8080
    - 80
-  strategy : rolling
-  ready_seconds : 30
   
 monitor:
   notify: skumar@ecloudcontrol.com
